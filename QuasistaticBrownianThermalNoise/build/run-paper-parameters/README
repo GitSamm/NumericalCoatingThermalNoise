@@ -1,0 +1,25 @@
+In this directory we are going to change the config files to match the parameters in the paper written by Anchal Gupta and Dr. Adhikari.
+There are going to be four different runs in this dirrectory. 
+
+1.) Dir: Run-IsoAlGaAs
+    Coating: Isotropic AlGaAs
+    LossAngles: 2.5e-5
+2.) Dir: Run-IsoAlGaAs-phi5.2E-7
+    Coating: Isotropic AlGaAs
+    LossAngles: 5.2e−7
+3.) Dir: Run-IsoAlGaAs-BulkShearPhiChanged
+    Coating: Isotropic AlGaAs
+    LossAngles: 
+3.) Dir: Run-AlGaAs
+    coating: Crystalline AlGaAs
+    LossAngles: 2.5e-5
+Here is a list of parameter changed in the config files:
+
+config.yaml:
+    Coating Total Thickness: 4.86 micrometers
+    Temperature:             305 Kelvin
+    Beam Spot in Radius:     152.3108006676 micrometers (which is defined to be 215.4/sqrt(2))
+
+config_multloss.yaml:
+    FusedSilica Loss Angle: 1E-7    
+

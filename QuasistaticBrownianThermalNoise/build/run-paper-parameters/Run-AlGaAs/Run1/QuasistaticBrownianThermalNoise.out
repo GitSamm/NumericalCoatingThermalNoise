@@ -1,0 +1,311 @@
+--------------------------------------------------------------------------
+WARNING: There is at least non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: orca-0-43
+--------------------------------------------------------------------------
+Cycle 0:
+Time: 2020-07-10.04:31:47
+Grid created. Refinement level: 1.
+Grid globally refined (2x). Refinement level: 3.
+Grid refinement 0...done. Refinement level: 4.
+Grid refinement 1...done. Refinement level: 5.
+   Number of active cells:       696
+   Number of degrees of freedom: 19407
+[orca-0-2:29201] 239 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[orca-0-2:29201] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+   Solver: solved in 71 iterations.
+Total energy: 0.0241489
+Substrate energy: 0.022072
+Coating energy: 5.19214e-08
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.99179e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.08785e-17
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.66848e-17
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |       6.1s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |     0.807s |        13% |
+| output                          |         1 |      2.29s |        38% |
+| setup                           |         1 |     0.974s |        16% |
+| solve                           |         1 |     0.971s |        16% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 1:
+Time: 2020-07-10.04:31:53
+Grid refinement created. Level before refinement: 5.
+Grid refined. Level after refinement: 6.
+   Number of active cells:       1424
+   Number of degrees of freedom: 41667
+   Solver: solved in 108 iterations.
+Total energy: 0.0170702
+Substrate energy: 0.0162537
+Coating energy: 2.04136e-08
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.40212e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.33517e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.04618e-17
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |      4.47s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |     0.748s |        17% |
+| output                          |         1 |      2.36s |        53% |
+| refine                          |         1 |     0.267s |         6% |
+| setup                           |         1 |     0.161s |       3.6% |
+| solve                           |         1 |     0.919s |        21% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 2:
+Time: 2020-07-10.04:31:58
+Grid refinement created. Level before refinement: 6.
+Grid refined. Level after refinement: 7.
+   Number of active cells:       2768
+   Number of degrees of freedom: 81177
+   Solver: solved in 147 iterations.
+Total energy: 0.0177317
+Substrate energy: 0.0173258
+Coating energy: 1.0148e-08
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.21369e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.63813e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 7.37629e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |      7.76s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      1.41s |        18% |
+| output                          |         1 |      4.45s |        57% |
+| refine                          |         1 |     0.209s |       2.7% |
+| setup                           |         1 |     0.373s |       4.8% |
+| solve                           |         1 |      1.31s |        17% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 3:
+Time: 2020-07-10.04:32:06
+Grid refinement created. Level before refinement: 7.
+Grid refined. Level after refinement: 8.
+   Number of active cells:       5393
+   Number of degrees of freedom: 160629
+   Solver: solved in 198 iterations.
+Total energy: 0.017994
+Substrate energy: 0.0173081
+Coating energy: 1.71481e-08
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.35919e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.63321e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.5886e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |      12.4s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      2.67s |        21% |
+| output                          |         1 |       7.6s |        61% |
+| refine                          |         1 |     0.218s |       1.8% |
+| setup                           |         1 |     0.403s |       3.2% |
+| solve                           |         1 |      1.51s |        12% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 4:
+Time: 2020-07-10.04:32:18
+Grid refinement created. Level before refinement: 8.
+Grid refined. Level after refinement: 9.
+   Number of active cells:       10580
+   Number of degrees of freedom: 316737
+   Solver: solved in 254 iterations.
+Total energy: 0.0173228
+Substrate energy: 0.0169842
+Coating energy: 8.46485e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.16811e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.54265e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.73684e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |        22s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      4.46s |        20% |
+| output                          |         1 |      14.5s |        66% |
+| refine                          |         1 |     0.269s |       1.2% |
+| setup                           |         1 |     0.635s |       2.9% |
+| solve                           |         1 |      2.04s |       9.3% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 5:
+Time: 2020-07-10.04:32:40
+Grid refinement created. Level before refinement: 9.
+Grid refined. Level after refinement: 10.
+   Number of active cells:       21080
+   Number of degrees of freedom: 625947
+   Solver: solved in 327 iterations.
+Total energy: 0.0176142
+Substrate energy: 0.0172528
+Coating energy: 9.03447e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.18719e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.61782e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.95982e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |      43.6s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      7.93s |        18% |
+| output                          |         1 |      31.8s |        73% |
+| refine                          |         1 |     0.328s |      0.75% |
+| setup                           |         1 |     0.539s |       1.2% |
+| solve                           |         1 |      3.03s |       6.9% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 6:
+Time: 2020-07-10.04:33:24
+Grid refinement created. Level before refinement: 10.
+Grid refined. Level after refinement: 11.
+   Number of active cells:       42871
+   Number of degrees of freedom: 1258086
+   Solver: solved in 420 iterations.
+Total energy: 0.0175078
+Substrate energy: 0.017173
+Coating energy: 8.36948e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.17025e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.59554e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.69878e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |       105s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      15.2s |        15% |
+| output                          |         1 |      83.1s |        79% |
+| refine                          |         1 |     0.413s |      0.39% |
+| setup                           |         1 |     0.704s |      0.67% |
+| solve                           |         1 |      5.15s |       4.9% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 7:
+Time: 2020-07-10.04:35:08
+Grid refinement created. Level before refinement: 11.
+Grid refined. Level after refinement: 12.
+   Number of active cells:       87356
+   Number of degrees of freedom: 2520738
+   Solver: solved in 547 iterations.
+Total energy: 0.0174123
+Substrate energy: 0.0171131
+Coating energy: 7.47839e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.14826e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.57881e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.33214e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |       315s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      30.1s |       9.5% |
+| output                          |         1 |       217s |        69% |
+| refine                          |         1 |     0.578s |      0.18% |
+| setup                           |         1 |      1.19s |      0.38% |
+| solve                           |         1 |      65.7s |        21% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 8:
+Time: 2020-07-10.04:40:23
+Grid refinement created. Level before refinement: 12.
+Grid refined. Level after refinement: 13.
+   Number of active cells:       178223
+   Number of degrees of freedom: 5062920
+   Solver: solved in 736 iterations.
+Total energy: 0.0174346
+Substrate energy: 0.017129
+Coating energy: 7.63981e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.15239e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.58325e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.40012e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.01e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |      60.3s |         6% |
+| output                          |         1 |       680s |        67% |
+| refine                          |         1 |      0.89s |         0% |
+| setup                           |         1 |      1.74s |      0.17% |
+| solve                           |         1 |       266s |        26% |
++---------------------------------+-----------+------------+------------+
+
+
+Cycle 9:
+Time: 2020-07-10.04:57:12
+Grid refinement created. Level before refinement: 13.
+Grid refined. Level after refinement: 14.
+   Number of active cells:       367314
+   Number of degrees of freedom: 10312692
+   Solver: solved in 928 iterations.
+Total energy: 0.017409
+Substrate energy: 0.0171111
+Coating energy: 7.44834e-09
+
+Total amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 1.14751e-17
+Substrate amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 9.57824e-18
+Coating amp noise (m/sqrt(Hz)) * sqrt(f/Hz): 6.31941e-18
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.97e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| assembly                        |         1 |       124s |       6.3% |
+| output                          |         1 |  1.36e+03s |        69% |
+| refine                          |         1 |      1.44s |         0% |
+| setup                           |         1 |      2.98s |      0.15% |
+| solve                           |         1 |       476s |        24% |
++---------------------------------+-----------+------------+------------+
+
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  5.58e-05s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
++---------------------------------+-----------+------------+------------+
+
