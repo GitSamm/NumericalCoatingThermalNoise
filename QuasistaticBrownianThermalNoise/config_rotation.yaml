@@ -1,0 +1,8 @@
+# Give the angle in degrees and we convert to radians in the code
+
+Xaxis:
+  Angle: 0
+Yaxis:
+  Bulk:  0
+Zaxis:
+  Bulk:  0
